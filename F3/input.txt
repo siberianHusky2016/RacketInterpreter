@@ -1,0 +1,1 @@
+(with ((f (fun (x) (+ x x)))) (with ((g (fun (f) (fun (x) (f (f x)))))) ((g f) 3)))
